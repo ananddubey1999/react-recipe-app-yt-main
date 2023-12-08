@@ -15,14 +15,14 @@ const Navbar = () => {
             <div className="nav">
                 {/* <--------------------This is a left Section of Navbar----------------> */}
                 <div className="left">
-                    <Link to='/' className='link'><h2>Food Recipe</h2>
+                    <Link to='/' className='link'>  <img src="https://i.pinimg.com/originals/37/48/24/374824e386bd9e8262498dbc43666a27.jpg"alt="Food Recipe Logo"className="logo-img"/>
                     </Link>
                 </div>
 
                 {/* <--------------------This is a Search Section of Navbar----------------> */}
                 <div className="search">
                     <form onSubmit={handleSubmit}>
-                        <input type="text" onChange={(e) => setInput(e.target.value)} />
+                        <input type="text" placeholder='Search Recipe' onChange={(e) => setInput(e.target.value)} />
                     </form>
                 </div>
 

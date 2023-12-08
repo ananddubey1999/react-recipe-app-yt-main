@@ -7,7 +7,7 @@
 /* part 4 - <---------navBar apply Css Start----------> */
 .nav{
   /* background-color:  */
-  background-color: #8383eb;
+  background-color: rgb(105, 79, 79);
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -21,10 +21,10 @@
   align-items: center;
   width: 16%;
 }
-.logo {
-  width: 15%; /* Set the width */
-  height: 16%; /* Maintain aspect ratio */
-  /* Add any other styling properties you want for your logo */
+.logo-img {
+  width: 55px; /* Set the width as needed */
+  height: 20; /* Maintain aspect ratio */
+  /* Add any other styles for the logo image */
 }
 
 .search{
