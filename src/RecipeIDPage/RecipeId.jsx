@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from './Navbar'
-import TrendingSlider from './TredingSlider'
+import Navbar from '../NavePage/Navbar'
+import TrendingSlider from '../NavePage/TredingSlider'
 import { useParams } from 'react-router-dom'
 
 

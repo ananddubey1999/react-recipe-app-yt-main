@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
-import PopularSlider from './PopularSlider'
-import TredingSlider from './TredingSlider'
+import Navbar from '../NavePage/Navbar'
+import PopularSlider from '../NavePage/PopularSlider'
+import TredingSlider from '../NavePage/TredingSlider'
 
 const Home = () => {
   return (
