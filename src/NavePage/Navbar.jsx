@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="nav">
                 {/* <--------------------This is a left Section of Navbar----------------> */}
                 <div className="left">
-                    <Link to='/' className='link'><h2>Recipe</h2>
+                    <Link to='/' className='link'><h2>Food Recipe</h2>
                     </Link>
                 </div>
 
