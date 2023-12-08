@@ -5,7 +5,7 @@ import './App.css';
 import RecipeId from './RecipeIDPage/RecipeId';
 import Category from './Category/Category';
 import SearchElement from './SearchElement/SearchElement';
-import generateSitemap from './sitemapGenerator'; // Import your sitemap generator
+import generateSitemap from './sitemapGenerator'; // Import sitemap generator
 
 const App = () => {
   // Generate sitemap
