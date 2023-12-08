@@ -15,6 +15,7 @@ const generateSitemap = () => {
   
     // Assuming you have a fixed list of categories, add their URLs above.
     // If the RecipeId or SearchElement pages have specific URLs based on IDs or search terms, generate those URLs here too.
+    console.log(urls); // Add this line to log the generated URLs
   
     return urls;
   };
