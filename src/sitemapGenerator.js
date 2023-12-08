@@ -1,7 +1,7 @@
 // sitemapGenerator.js
 
 const generateSitemap = () => {
-    const baseUrl = 'https://yourwebsite.com'; // Replace with your website's URL
+    const baseUrl = 'https://react-recipe-app-yt-main-nmn1ooim9-ananddubey1999.vercel.app'; // Replace with your website's URL
     const urls = [
       `${baseUrl}/`,
       `${baseUrl}/category/indian`,
