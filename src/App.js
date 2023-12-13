@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './HomePage/Home';
 import './App.css';
@@ -8,22 +8,20 @@ import SearchElement from './SearchElement/SearchElement';
 import generateSitemap from './sitemapGenerator'; // Import sitemap generator
 
 const App = () => {
-  const routes = [
-    <Route key="home" path="/" element={<Home />} />,
-    <Route key="recipe" path="/:idMeal" element={<RecipeId />} />,
-    <Route key="category" path="/category/:name" element={<Category />} />,
-    <Route key="search" path="/search/:searchTerm" element={<SearchElement />} />,
-    // Add more routes here as needed
-  ];
-
-  useEffect(() => {
-    generateSitemap(routes);
-  }, [routes]);
+  // Generate sitemap
+  const urls = generateSitemap();
+    // Log the generated URLs
+  console.log('Generated URLs:', urls);
 
   return (
     <>
       <Router>
-        <Routes>{routes}</Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/:idMeal' element={<RecipeId />} />
+          <Route path='/category/:name' element={<Category />} />
+          <Route path='/search/:searchTerm' element={<SearchElement />} />
+        </Routes>
       </Router>
     </>
   );
